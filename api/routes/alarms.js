@@ -11,7 +11,7 @@ import AlarmRule from "../models/emqx_alarm_rule.js";
 const auth = {
   auth: {
     username: "admin",
-    password: "emqxsecret"
+    password: process.env.EMQX_MANAGEMENT__DEFAULT_APPLICATION__SECRET
   }
 };
 

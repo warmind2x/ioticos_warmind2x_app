@@ -18,7 +18,7 @@ import EmqxAuthRule from "../models/emqx_auth.js";
 const auth = {
   auth: {
     username: "admin",
-    password: "emqxsecret"
+    password: process.env.EMQX_MANAGEMENT__DEFAULT_APPLICATION__SECRET
   }
 };
 
